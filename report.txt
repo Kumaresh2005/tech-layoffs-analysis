@@ -1,0 +1,82 @@
+TECH LAYOFFS & HIRING REPORT
+========================================
+
+       record_id company_name      industry    country company_size  month  \
+count      12000        12000         12000      12000        12000  12000   
+unique     12000           20             7          6            4     12   
+top           T0   Databricks  Social Media  Singapore     Big Tech    Feb   
+freq           1          644          1742       2043         3066   1053   
+mean         NaN          NaN           NaN        NaN          NaN    NaN   
+std          NaN          NaN           NaN        NaN          NaN    NaN   
+min          NaN          NaN           NaN        NaN          NaN    NaN   
+25%          NaN          NaN           NaN        NaN          NaN    NaN   
+50%          NaN          NaN           NaN        NaN          NaN    NaN   
+75%          NaN          NaN           NaN        NaN          NaN    NaN   
+max          NaN          NaN           NaN        NaN          NaN    NaN   
+
+                year  layoffs_count  layoff_percentage reason_for_layoffs  \
+count   12000.000000   12000.000000       12000.000000              12000   
+unique           NaN            NaN                NaN                  5   
+top              NaN            NaN                NaN      Ai Automation   
+freq             NaN            NaN                NaN               2435   
+mean     2024.998750    5009.572083          12.780125                NaN   
+std         0.817703    5159.360491          10.212612                NaN   
+min      2024.000000       0.000000           0.000000                NaN   
+25%      2024.000000    1369.500000           5.100000                NaN   
+50%      2025.000000    2733.000000           9.400000                NaN   
+75%      2026.000000    6490.000000          17.300000                NaN   
+max      2026.000000   19999.000000          40.000000                NaN   
+
+        ...   hiring_trend  remote_jobs_percentage  top_hiring_role  \
+count   ...          12000            12000.000000            12000   
+unique  ...              4                     NaN                8   
+top     ...  Hiring Freeze                     NaN      Ml Engineer   
+freq    ...           4975                     NaN             2190   
+mean    ...            NaN               50.205150              NaN   
+std     ...            NaN               23.299575              NaN   
+min     ...            NaN               10.000000              NaN   
+25%     ...            NaN               29.800000              NaN   
+50%     ...            NaN               50.500000              NaN   
+75%     ...            NaN               70.700000              NaN   
+max     ...            NaN               90.000000              NaN   
+
+       stock_growth_percent  revenue_growth_percent salary_budget_change  \
+count          12000.000000            12000.000000         12000.000000   
+unique                  NaN                     NaN                  NaN   
+top                     NaN                     NaN                  NaN   
+freq                    NaN                     NaN                  NaN   
+mean              22.466550               17.469175             5.920392   
+std               38.814405               24.359448            11.777264   
+min              -45.000000              -25.000000           -28.000000   
+25%              -11.200000               -3.500000            -2.700000   
+50%               22.600000               17.500000             5.900000   
+75%               55.700000               38.400000            14.600000   
+max               90.000000               60.000000            38.200000   
+
+        ai_adoption_level  employee_sentiment  job_security_score  \
+count        12000.000000        12000.000000        12000.000000   
+unique                NaN                 NaN                 NaN   
+top                   NaN                 NaN                 NaN   
+freq                  NaN                 NaN                 NaN   
+mean             5.538750            6.496217            5.805033   
+std              2.583047            1.582356            1.649677   
+min              1.000000            1.300000            1.000000   
+25%              3.300000            5.400000            4.700000   
+50%              5.600000            6.500000            5.900000   
+75%              7.700000            7.600000            7.000000   
+max             10.000000           10.000000           10.000000   
+
+        market_condition  
+count              12000  
+unique                 3  
+top               Stable  
+freq                4078  
+mean                 NaN  
+std                  NaN  
+min                  NaN  
+25%                  NaN  
+50%                  NaN  
+75%                  NaN  
+max                  NaN  
+
+[11 rows x 23 columns]
